@@ -76,7 +76,7 @@ public class ScooterButtonTest {
 
         homePage.waitForLoadHomePage()
                 .clickOrderState()
-                .inputOrderNumber("45106")
+                .inputOrderNumber("10203")
                 .clickGo();
 
         orderStatus.waitLoadOrderStatusPade()

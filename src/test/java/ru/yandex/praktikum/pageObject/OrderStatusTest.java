@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class OrderStatusTest {
     WebDriver driver;
     private final String site = "https://qa-scooter.praktikum-services.ru/";
-    private final String numberOrder = "45106";
+    private final String numberOrder = "10203";
     @Before
     public void startUp() {
         WebDriverManager.firefoxdriver().setup();
